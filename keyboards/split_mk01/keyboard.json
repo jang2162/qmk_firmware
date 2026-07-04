@@ -1,0 +1,115 @@
+{
+    "manufacturer": "byeonghyun",
+    "keyboard_name": "split_mk01",
+    "maintainer": "jang2162",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6"],
+        "rows": ["GP7", "GP8", "GP9", "GP10", "GP11"]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "vid": "0xFEED",
+        "pid": "0x1337"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0, "w": 1, "label": "Esc", "hand": "L"},
+                {"matrix": [0, 1], "x": 1.25, "y": 0, "w": 1, "label": "`", "hand": "L"},
+                {"matrix": [0, 2], "x": 2.25, "y": 0, "w": 1, "label": "1", "hand": "L"},
+                {"matrix": [0, 3], "x": 3.25, "y": 0, "w": 1, "label": "2", "hand": "L"},
+                {"matrix": [0, 4], "x": 4.25, "y": 0, "w": 1, "label": "3", "hand": "L"},
+                {"matrix": [0, 5], "x": 5.25, "y": 0, "w": 1, "label": "4", "hand": "L"},
+                {"matrix": [0, 6], "x": 6.25, "y": 0, "w": 1, "label": "5", "hand": "L"},
+
+                {"matrix": [1, 0], "x": 0, "y": 1.25, "w": 1, "label": "Page Up", "hand": "L"},
+                {"matrix": [1, 1], "x": 1.5, "y": 1, "w": 1.5, "label": "Tab", "hand": "L"},
+                {"matrix": [1, 2], "x": 3, "y": 1, "w": 1, "label": "Q", "hand": "L"},
+                {"matrix": [1, 3], "x": 4, "y": 1, "w": 1, "label": "W", "hand": "L"},
+                {"matrix": [1, 4], "x": 5, "y": 1, "w": 1, "label": "E", "hand": "L"},
+                {"matrix": [1, 5], "x": 6, "y": 1, "w": 1, "label": "R", "hand": "L"},
+                {"matrix": [1, 6], "x": 7.25, "y": 0, "w": 1, "label": "6", "hand": "L"},
+
+                {"matrix": [2, 0], "x": 0, "y": 2.25, "w": 1, "label": "Page Down", "hand": "L"},
+                {"matrix": [2, 1], "x": 1.5, "y": 2, "w": 1.75, "label": "Caps Lock", "hand": "L"},
+                {"matrix": [2, 2], "x": 3.25, "y": 2, "w": 1, "label": "A", "hand": "L"},
+                {"matrix": [2, 3], "x": 4.25, "y": 2, "w": 1, "label": "S", "hand": "L"},
+                {"matrix": [2, 4], "x": 5.25, "y": 2, "w": 1, "label": "D", "hand": "L"},
+                {"matrix": [2, 5], "x": 6.25, "y": 2, "w": 1, "label": "F", "hand": "L"},
+                {"matrix": [2, 6], "x": 7, "y": 1, "w": 1, "label": "T", "hand": "L"},
+
+                {"matrix": [3, 0], "x": 1.25, "y": 3, "w": 2.25, "label": "L Shift", "hand": "L"},
+                {"matrix": [3, 2], "x": 2.25, "y": 3, "w": 1, "label": "Z", "hand": "L"},
+                {"matrix": [3, 3], "x": 3.25, "y": 3, "w": 1, "label": "X", "hand": "L"},
+                {"matrix": [3, 4], "x": 4.25, "y": 3, "w": 1, "label": "C", "hand": "L"},
+                {"matrix": [3, 5], "x": 5.25, "y": 3, "w": 1, "label": "V", "hand": "L"},
+                {"matrix": [3, 6], "x": 7.25, "y": 2, "w": 1, "label": "G", "hand": "L"},
+
+                {"matrix": [4, 0], "x": 1.25, "y": 4, "w": 1.25, "label": "L Ctrl", "hand": "L"},
+                {"matrix": [4, 1], "x": 2.5, "y": 4, "w": 1.25, "label": "L Win", "hand": "L"},
+                {"matrix": [4, 2], "x": 3.75, "y": 4, "w": 1.25, "label": "L Alt", "hand": "L"},
+                {"matrix": [4, 3], "x": 5.25, "y": 4, "w": 1, "label": "L Fn", "hand": "L"},
+                {"matrix": [4, 5], "x": 6.25, "y": 4, "w": 2.25, "label": "L Space", "hand": "L"},
+                {"matrix": [4, 6], "x": 7.5, "y": 3, "w": 1, "label": "B", "hand": "L"},
+
+                {"matrix": [5, 0], "x": 8.75, "y": 0, "w": 1, "label": "7", "hand": "R"},
+                {"matrix": [5, 1], "x": 9.75, "y": 0, "w": 1, "label": "8", "hand": "R"},
+                {"matrix": [5, 2], "x": 10.75, "y": 0, "w": 1, "label": "9", "hand": "R"},
+                {"matrix": [5, 3], "x": 11.75, "y": 0, "w": 1, "label": "0", "hand": "R"},
+                {"matrix": [5, 4], "x": 12.75, "y": 0, "w": 1, "label": "=-", "hand": "R"},
+                {"matrix": [5, 5], "x": 13.75, "y": 0, "w": 2, "label": "Backspace", "hand": "R"},
+                {"matrix": [5, 6], "x": 17.25, "y": 0.5, "w": 1, "label": "Insert", "hand": "R"},
+
+                {"matrix": [6, 0], "x": 8.5, "y": 1, "w": 1, "label": "Y", "hand": "R"},
+                {"matrix": [6, 1], "x": 9.5, "y": 1, "w": 1, "label": "U", "hand": "R"},
+                {"matrix": [6, 2], "x": 10.5, "y": 1, "w": 1, "label": "I", "hand": "R"},
+                {"matrix": [6, 3], "x": 12.75, "y": 0, "w": 1, "label": "-", "hand": "R"},
+                {"matrix": [6, 4], "x": 14.5, "y": 1, "w": 1, "label": "]", "hand": "R"},
+                {"matrix": [6, 5], "x": 15.5, "y": 1, "w": 1.5, "label": "\\", "hand": "R"},
+                {"matrix": [6, 6], "x": 18.25, "y": 0.5, "w": 1, "label": "Home", "hand": "R"},
+
+                {"matrix": [7, 0], "x": 8.75, "y": 2, "w": 1, "label": "H", "hand": "R"},
+                {"matrix": [7, 1], "x": 9.75, "y": 2, "w": 1, "label": "J", "hand": "R"},
+                {"matrix": [7, 2], "x": 11.5, "y": 1, "w": 1, "label": "O", "hand": "R"},
+                {"matrix": [7, 3], "x": 12.5, "y": 1, "w": 1, "label": "P", "hand": "R"},
+                {"matrix": [7, 4], "x": 13.5, "y": 1, "w": 1, "label": "[", "hand": "R"},
+                {"matrix": [7, 5], "x": 14.75, "y": 2, "w": 2.25, "label": "Enter", "hand": "R"},
+                {"matrix": [7, 6], "x": 18.25, "y": 1.5, "w": 1, "label": "End", "hand": "R"},
+
+                {"matrix": [8, 0], "x": 8.5, "y": 3, "w": 1, "label": "B", "hand": "R"},
+                {"matrix": [8, 1], "x": 10.75, "y": 2, "w": 1, "label": "K", "hand": "R"},
+                {"matrix": [8, 2], "x": 11.75, "y": 2, "w": 1, "label": "L", "hand": "R"},
+                {"matrix": [8, 3], "x": 12.75, "y": 2, "w": 1, "label": ";", "hand": "R"},
+                {"matrix": [8, 4], "x": 13.75, "y": 2, "w": 1, "label": "'", "hand": "R"},
+                {"matrix": [8, 5], "x": 14.5, "y": 3, "w": 1.75, "label": "R Shift", "hand": "R"},
+                {"matrix": [8, 6], "x": 17.25, "y": 1.5, "w": 1, "label": "Delete", "hand": "R"},
+
+                {"matrix": [9, 0], "x": 9.5, "y": 3, "w": 1, "label": "N", "hand": "R"},
+                {"matrix": [9, 1], "x": 10.5, "y": 3, "w": 1, "label": "M", "hand": "R"},
+                {"matrix": [9, 2], "x": 11.5, "y": 3, "w": 1, "label": ",", "hand": "R"},
+                {"matrix": [9, 3], "x": 12.5, "y": 3, "w": 1, "label": ".", "hand": "R"},
+                {"matrix": [9, 4], "x": 13.5, "y": 3, "w": 1, "label": "/", "hand": "R"},
+                {"matrix": [9, 5], "x": 16.5, "y": 4, "w": 1, "label": "Left", "hand": "R"},
+                {"matrix": [9, 6], "x": 17.5, "y": 3, "w": 1, "label": "Up", "hand": "R"},
+
+                {"matrix": [10, 0], "x": 8.5, "y": 4, "w": 2.75, "label": "R Space", "hand": "R"},
+                {"matrix": [10, 1], "x": 11.25, "y": 4, "w": 1.25, "label": "R Alt", "hand": "R"},
+                {"matrix": [10, 2], "x": 12.5, "y": 4, "w": 1.25, "label": "R Win", "hand": "R"},
+                {"matrix": [10, 3], "x": 13.75, "y": 4, "w": 1.25, "label": "R Fn", "hand": "R"},
+                {"matrix": [10, 4], "x": 15, "y": 4, "w": 1.25, "label": "R Ctrl", "hand": "R"},
+                {"matrix": [10, 5], "x": 17.5, "y": 4, "w": 1, "label": "Down", "hand": "R"},
+                {"matrix": [10, 6], "x": 18.5, "y": 4, "w": 1, "label": "Right", "hand": "R"}
+            ]
+        }
+    }
+}

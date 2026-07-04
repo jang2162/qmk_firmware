@@ -1,0 +1,21 @@
+#pragma once
+
+#define MATRIX_ROWS 11
+#define MATRIX_COLS 7
+
+#define DIODE_DIRECTION COL2ROW
+
+#ifdef LEFT
+  #define MATRIX_ROW_PINS { GP7, GP8, GP9, GP10, GP11 }
+  #define MATRIX_COL_PINS { GP0, GP1, GP2, GP3, GP4, GP5, GP6 }
+#else
+  #define MATRIX_ROW_PINS { GP7, GP8, GP9, GP10, GP11, GP12 }
+  #define MATRIX_COL_PINS { GP0, GP1, GP2, GP3, GP4, GP5, GP6 }
+#endif
+
+#define USE_SERIAL
+#define SERIAL_USART_TX_PIN GP24
+
+#define EE_HANDS
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 16
